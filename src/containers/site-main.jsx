@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 
 
-class SiteContainer extends Component {
+class SiteMain extends Component {
     render(){
         return(
-            <div className="site-container">
+            <div className="main__container">
+                Main Container
             </div> 
         )
     }
 }
 
-export default SiteContainer; 
+export default SiteMain; 
