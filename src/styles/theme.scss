@@ -12,6 +12,22 @@
 
     .main {
         grid-area: 2 / 1 / 5 / 6;
+
+        &__container {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(5, 1fr);
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+
+            .word-cloud {
+                grid-area: 1 / 1 / 6 / 4;
+            }
+
+            .word-sidebar {
+                grid-area: 1 / 4 / 6 / 6;
+            }
+        }
     }
 
     .footer {
