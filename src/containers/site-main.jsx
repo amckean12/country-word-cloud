@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 
+//Styling
+import '../styles/main.scss'
+
 
 class SiteMain extends Component {
     render(){

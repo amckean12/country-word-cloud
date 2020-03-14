@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 
+//Styling
+import '../styles/footer.scss'
+
 
 class SiteFooter extends Component {
     render(){

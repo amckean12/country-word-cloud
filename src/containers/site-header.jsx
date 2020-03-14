@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 
+//Styling
+import '../styles/header.scss'
+
 
 class SiteHeader extends Component {
     render(){
