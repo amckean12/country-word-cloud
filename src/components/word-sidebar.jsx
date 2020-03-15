@@ -1,9 +1,14 @@
 import React from 'react';
+import ContentComponent from './content.jsx';
 
-const WordSidebar = () => {
+
+const WordSidebar = (props) => {
     return(
         <div class="word-sidebar__container">
-            Hello
+            <ContentComponent 
+                block={"word-sidebar"}
+                modifier={"default"}
+                contentStack={['h2', 'p']}/>
         </div>
     );
 };
